@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter/material.dart';
+import 'package:e_commerce_app/features/authentication/screens/login/login.dart';
 
 class OnboardingController extends GetxController {
   static OnboardingController get instance => Get.find();
@@ -27,7 +28,7 @@ class OnboardingController extends GetxController {
         curve: Curves.easeIn,
       );
     } else {
-      // Skip page
+      Get.offAll(const LoginScreen());
     }
   }
 
