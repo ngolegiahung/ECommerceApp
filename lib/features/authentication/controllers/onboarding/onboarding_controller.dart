@@ -33,7 +33,6 @@ class OnboardingController extends GetxController {
   }
 
   void skipPage() {
-    currentPage.value = 2;
-    pageController.jumpToPage(2);
+    Get.offAll(const LoginScreen());
   }
 }
