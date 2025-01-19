@@ -62,4 +62,11 @@ class TTexts {
   // -- Home
   static const String homeAppbarTitle = "Good day for shopping";
   static const String homeAppbarSubTitle = "Parker NGO";
+
+  // -- Search string
+  static const String searchInStore = 'Search in Store';
+
+  // -- Section string
+  static const String popularCategory = 'Popular Categories';
+  static const String viewAll = 'View all';
 }

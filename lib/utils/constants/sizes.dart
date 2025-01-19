@@ -69,4 +69,8 @@ class TSizes {
 
   // Bottom Navigation spacing
   static const double bottomNavigationSpacing = 80.0;
+
+  // List Category size
+  static const double heightListCategories = 100.0;
+  static const double circleItemCategory = 56.0;
 }
