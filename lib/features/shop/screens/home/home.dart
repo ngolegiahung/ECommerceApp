@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:e_commerce_app/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:e_commerce_app/common/widgets/custom_shapes/containers/primary_header_container.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -12,7 +13,9 @@ class HomeScreen extends StatelessWidget {
           children: [
             TPrimaryHeaderContainer(
               child: Column(
-                children: [Container()],
+                children: [
+                  THomeAppBar(),
+                ],
               ),
             )
           ],
